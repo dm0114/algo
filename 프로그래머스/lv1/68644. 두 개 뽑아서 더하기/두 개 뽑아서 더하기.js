@@ -7,7 +7,7 @@ function solution(numbers) {
       dfs(lv+1, i+1, sum+numbers[i])
     }
   }
+  
   dfs(0, 0, 0)
-
   return [...answer].sort((a, b) => a - b);
 }
