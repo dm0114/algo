@@ -2,6 +2,10 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12940) 
 
+### 참고
+유클리드 호제법
+https://velog.io/@devjade/JavaScript%EB%A1%9C-%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98GCD-%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98LCM-%EA%B5%AC%ED%95%98%EA%B8%B0
+
 ### 성능 요약
 
 메모리: 33.4 MB, 시간: 0.08 ms
