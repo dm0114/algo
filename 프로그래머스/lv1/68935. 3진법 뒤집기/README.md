@@ -2,6 +2,13 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/68935) 
 
+### 참고
+문자열 뒤집기
+https://codechacha.com/ko/javascript-reverse-string/
+
+자바스크립트 N진법 <--> 10진법
+https://isa-dev.tistory.com/26
+
 ### 성능 요약
 
 메모리: 33.5 MB, 시간: 0.04 ms
