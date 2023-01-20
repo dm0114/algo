@@ -5,7 +5,7 @@ function solution(numbers, hand) {
   const moveR = (dest) => {R = dest; return 'R'}
   const moveL = (dest) => {L = dest; return 'L'}
 
-  const bfs = (v) => {
+  const cal = (v) => {
     const target = coord[v]
     if (v % 3 === 1) return moveL(target)
     else if (v % 3 === 0 && v !== 0) return moveR(target)
@@ -15,5 +15,5 @@ function solution(numbers, hand) {
     return ld > rd ? moveR(target) : moveL(target)
   }
 
-  return numbers.map(v => bfs(v)).join('')
+  return numbers.map(v => cal(v)).join('')
 }
