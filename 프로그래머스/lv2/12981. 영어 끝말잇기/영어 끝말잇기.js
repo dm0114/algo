@@ -13,7 +13,8 @@ function solution(n, words) {
       : (() => {
           dict[v] = (i % n) + 1;
           return false;
-        })() || tmp !== v[0]
+        })() 
+    || tmp !== v[0]
       ? (() => {
           ans[0] = (i % n) + 1;
           ans[1] = Math.floor(i / n) + 1;
