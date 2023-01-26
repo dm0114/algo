@@ -19,7 +19,7 @@ class MaxHeap {
     if (this.size() < 2) {
       return this.heap.pop()
     }
-    
+
     const root = this.heap[1];
     this.heap[1] = this.heap.pop();
 
